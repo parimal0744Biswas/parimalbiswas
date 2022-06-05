@@ -9,7 +9,7 @@
 
 - 🌱 I’m currently learning **MERN Web Development**
 
-- 👨‍💻 All of my projects are available at [www.parimalbiswas.in](www.parimalbiswas.in)
+- 👨‍💻 All of my projects are available at www.parimalbiswas.in (www.parimalbiswas.in)
 
 - 📝 I regularly write articles on www.parimalbiswas.in (www.parimalbiswas.in)
 
@@ -17,7 +17,7 @@
 
 - 📫 How to reach me **biswasparimal01@gmail.com**
 
-- 📄 Know about my experiences [www.parimalbiswas.in](www.parimalbiswas.in)
+- 📄 Know about my experiences www.parimalbiswas.in (www.parimalbiswas.in)
 
 - ⚡ Fun fact **Abra Ka Dabra**
 
