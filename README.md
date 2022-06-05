@@ -11,7 +11,7 @@
 
 - 👨‍💻 All of my projects are available at [www.parimalbiswas.in](www.parimalbiswas.in)
 
-- 📝 I regularly write articles on [www.parimalbiswas.in](www.parimalbiswas.in)
+- 📝 I regularly write articles on www.parimalbiswas.in (www.parimalbiswas.in)
 
 - 💬 Ask me about **React Node Express JS**
 
