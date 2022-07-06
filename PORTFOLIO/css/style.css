@@ -1,0 +1,942 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700;800&family=Work+Sans:wght@400;500&display=swap');
+
+/* =======================================================
+Start all Reusalble Genaral CSS
+=========================================================*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  font-family: 'Work Sans', sans-serif;
+}
+
+:root {
+  --heading: rgb(0, 10, 45);
+  --para: #777;
+  --para-tint: #e4e4e4;
+  --white: #fff;
+  --black: #212529;
+  --helper: #8490ff;
+  --overlay: #3e64ff;
+  --helper-tint: #f3f4ff;
+  --bg: rgb(249, 249, 255);
+  --gradient: linear-gradient(0deg, rgb(132 144 255)0%, rgb(98, 189, 252)100%);
+  --gradiantSupport: -webkit-linear-gradient(0deg, rgb(132 144 255)0%, rgb(98, 189, 252)100%);
+  --shadow: 0px 0px 20px 0px rgb(132 144 255 / 20%);
+  --shadowSupport: 0 2rem 2rem 0 rgb(132 144 255 / 30%);
+}
+
+
+html {
+  font-size: 62.5%;
+  /* 1rem =10px; */
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: 'Poppins', sans-serif;
+}
+
+
+h1 {
+  color: var(--heading);
+  font-size: 6rem;
+  font-weight: 600;
+}
+
+h3 {
+  font-size: 1.8rem;
+  font-weight: 400;
+  /* margin-bottom: 1rem; */
+}
+
+p {
+  color: var(--para);
+  line-height: 1.6;
+  font-size: 1.7rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+
+
+
+/* =======================================================
+Start header Section
+=========================================================*/
+
+.header {
+  padding: 0 4.8rem;
+  height: 10rem;
+  background-color: var(--bg);
+  /* background: red; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header.logo {
+  height: 3rem;
+}
+
+.navbar-lists {
+  display: flex;
+  gap: 4.8rem;
+
+}
+
+
+.navbar-link:link,
+.navbar-link:visited {
+  display: inline-block;
+  text-decoration: none;
+  font-size: 1.8rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: var(--black);
+  transition: color 0.3s linear;
+}
+
+.navbar-link:hover,
+.navbar-link:active {
+  color: var(--helper);
+}
+
+
+
+
+
+/* =======================================================
+ Start Hero Section
+=========================================================*/
+
+/* Reusable  */
+
+.section {
+  padding: 9rem 0;
+  padding: 50px;
+  /* padding-right: 35px;
+  padding-left: 35px; */
+  margin-top: 90px;
+ 
+}
+
+.grid {
+  display: grid;
+  gap: 9rem;
+
+}
+
+.container {
+  max-width: 140rem;
+  margin: 0 auto;
+}
+
+.grid-two-colum {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.grid-three-colum {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.grid-four-colum {
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.btn {
+  background: var(--gradiantSupport);
+  padding: 1.6rem 3.2rem;
+  border: none;
+  color: var(--helper-tint);
+  display: inline-block;
+  text-transform: uppercase;
+  font-size: 1.8rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease 0s;
+}
+
+.btn:hover,
+.btn:active {
+  box-shadow: var(--shadowSupport);
+
+}
+
+.common-heading {
+  font-size: 3.8rem;
+  font-weight: 600;
+  margin-bottom: 6rem;
+  text-transform: capitalize;
+  position: relative;
+}
+
+.common-heading::before {
+  content: "";
+  position: absolute;
+  top: 110%;
+  left: 0;
+  width: 1.5rem;
+  height: 1.5rem;
+  background: var(--helper);
+  border-radius: 50%;
+}
+
+.common-heading::after {
+  content: "";
+  position: absolute;
+  top: 120%;
+  left: 1.5rem;
+  height: 0.3rem;
+  min-width: 20rem;
+  background: var(--helper);
+
+}
+
+
+h3 {
+  font-size: 1.8rem;
+  font-weight: 400;
+  margin-bottom: 1rem;
+}
+
+
+/* Hero   */
+
+.section-hero {
+  background-color: var(--bg);
+}
+
+.section-hero-data {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* align-items: flex-start; */
+}
+
+.hero-top-data {
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 1.5rem;
+  color: var(--helper);
+
+}
+
+.hero-img {
+  max-width: 80%;
+  box-shadow: 2rem 2rem 0 0 var(--helper);
+}
+
+.hero-heading {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 5.4rem;
+
+}
+
+.hero-para {
+  margin-top: 1.5rem;
+  margin-bottom: 5rem;
+  max-width: 60rem;
+}
+
+.section-hero-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+
+/* //1:27                                           */
+
+
+/* =======================================================
+ Start Bio Data Section
+=========================================================*/
+
+
+/* 
+.bio-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.bio-image img {
+    width: 80%;
+    box-shadow: -2rem -2rem 0 0 var(--helper);
+}
+
+
+
+.section-portfolio {
+    background-color: var(--bg);
+    transition: all 0.74s linear;
+  }
+  
+  .section-portfolio p,
+  .section-services p {
+    max-width: 60rem;
+  }
+  
+  .portfolio-images {
+    gap: 3.2rem;
+    margin-top: 6.4rem;
+  }
+  
+  .img-ovelay {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .portfolio-images img {
+    width: 100%;
+    border-radius: 7px;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .img-ovelay .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: -webkit-linear-gradient(
+      0deg,
+      rgb(132 144 255) 0%,
+      rgb(98 189 252) 100%
+    );
+    opacity: 0;
+    color: var(--third);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translateY(100%);
+    transition: all 0.3s linear;
+    border-radius: 7px;
+    
+  }
+  
+  .img-ovelay:hover > .overlay {
+    opacity: 0.8;
+    transform: translateY(0);
+    cursor: pointer;
+  }
+  
+  .img-ovelay .overlay .common-heading {
+    margin: 0;
+    color: var(--third);
+    text-decoration: none;
+  } */
+
+
+/* ----------------------------------------------------------- */
+
+/* .bio-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .bio-image img {
+    display: inline-block;
+    width: 80%;
+    box-shadow: -2rem -2rem 0rem 0rem var(--helper);
+  }
+  
+  .common-heading {
+    font-size: 4.8rem;
+    font-weight: 700;
+    margin-bottom: 6rem;
+    text-transform: capitalize;
+    position: relative;
+  }
+  
+  .common-heading::before {
+    content: "";
+    position: absolute;
+    top: 120%;
+    left: 0;
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 50%;
+    background: var(--helper);
+  }
+  
+  .common-heading::after {
+    content: "";
+    position: absolute;
+    top: 128%;
+    left: 1.5rem;
+    width: 30%;
+    height: 0.3rem;
+    background: var(--helper);
+  }
+  
+  .bio-data-stats {
+    padding: 6.4rem 0;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+  }
+  
+  h3 {
+    font-size: 1.8rem;
+    font-weight: 400;
+    margin-bottom: 1rem;
+  }
+  
+  .bio-progress-bar {
+    width: 90%;
+    height: 0.8rem;
+    background-color: rgb(233 236 239);
+    border-radius: 10rem;
+    position: relative;
+    box-shadow: var(--shadpw);
+  
+  }
+  
+  .bio-progress-bar::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 80%;
+    height: inherit;
+    background: -webkit-linear-gradient(
+      0deg,
+      rgb(132 144 255) 0%,
+      rgb(98 189 252) 100%
+    );
+    border-radius: 10rem;
+  }
+  
+  
+  .bio-progress-bar span {
+    position: absolute;
+    top: 1.8rem;
+    left: 76%;
+    width: 4rem;
+    height: 2rem;
+    background: var(--helper);
+    color: var(--third);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    border: none;
+    outline: none;
+  }
+  
+ 
+  .bio-progress-bar span::after {
+    content: "";
+    position: absolute;
+    top: -1.6rem;
+    width: 0rem;
+    height: 0rem;
+    border: 0.8rem solid var(--helper);
+    border-color: transparent;
+    border-bottom-color: var(--helper);
+  } */
+
+/* ===========================================
+ Bio Data Section Start
+======================================= */
+
+.bio-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bio-image img {
+  display: inline-block;
+  width: 80%;
+  /* box-shadow: -2rem -2rem 0rem 0rem var(--helper); */
+}
+
+.common-heading {
+  font-size: 4.8rem;
+  font-weight: 700;
+  margin-bottom: 6rem;
+  text-transform: capitalize;
+  position: relative;
+}
+
+.common-heading::before {
+  content: "";
+  position: absolute;
+  top: 120%;
+  left: 0;
+  width: 1.5rem;
+  height: 1.5rem;
+  border-radius: 50%;
+  background: var(--helper);
+}
+
+.common-heading::after {
+  content: "";
+  position: absolute;
+  top: 128%;
+  left: 1.5rem;
+  width: 30%;
+  height: 0.3rem;
+  background: var(--helper);
+}
+
+.bio-data-stats {
+  padding: 6.4rem 0;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+h3 {
+  font-size: 1.8rem;
+  font-weight: 400;
+  margin-bottom: 1rem;
+}
+
+.bio-progress-bar {
+  width: 90%;
+  height: 0.8rem;
+  /* background: var(--para); */
+  background-color: rgb(233 236 239);
+  border-radius: 10rem;
+  position: relative;
+  box-shadow: var(--shadpw);
+  /* overflow: hidden; */
+}
+
+.bio-progress-bar::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 80%;
+  height: inherit;
+  background: -webkit-linear-gradient(0deg,
+      rgb(132 144 255) 0%,
+      rgb(98 189 252) 100%);
+  border-radius: 10rem;
+}
+
+/* to create the rectangle box  */
+.bio-progress-bar span {
+  position: absolute;
+  top: 1.8rem;
+  left: 76%;
+  width: 4rem;
+  height: 2rem;
+  background: var(--helper);
+  color: var(--third);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+  border: none;
+  outline: none;
+}
+
+/* to create the traingle or caret symbol  */
+.bio-progress-bar span::after {
+  content: "";
+  position: absolute;
+  top: -1.6rem;
+  width: 0rem;
+  height: 0rem;
+  border: 0.8rem solid var(--helper);
+  border-color: transparent;
+  border-bottom-color: var(--helper);
+}
+
+/* ===========================================
+   Section portfolio
+  ======================================= */
+
+.section-portfolio {
+  background-color: var(--bg);
+  transition: all 0.7s linear;
+}
+
+/* .section-services p */
+.section-portfolio p {
+  max-width: 60rem;
+}
+
+
+.p-btns {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3.2rem;
+  margin-top: 6.4rem;
+  margin: 6.4rem 0;
+}
+
+
+
+.p-btns-active {
+  transform: translateY(-1rem);
+}
+
+
+.portfolio-images {
+  gap: 3.2rem;
+
+}
+
+.img-ovelay {
+  position: relative;
+  overflow: hidden;
+}
+
+.portfolio-images img {
+  width: 100%;
+  border-radius: 7px;
+  position: relative;
+  overflow: hidden;
+}
+
+.img-ovelay .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: -webkit-linear-gradient(0deg,
+      rgb(132 144 255) 0%,
+      rgb(98 189 252) 100%);
+  opacity: 0;
+  color: var(--third);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: translateY(100%);
+  transition: all 0.3s linear;
+  border-radius: 7px;
+  /* box-shadow: inset 0 0 0 0.5rem var(--helper-tint); */
+}
+
+.img-ovelay:hover>.overlay {
+  opacity: 0.8;
+  transform: translateY(0);
+  cursor: pointer;
+}
+
+.img-ovelay .common-heading {
+  margin: 0;
+  color: var(--white);
+  text-decoration: none;
+}
+
+/* ===========================================
+  work data Section
+  ======================================= */
+.section-work-data {
+  background: var(--gradiantSupport);
+  /* color: var(--third); */
+  text-align: center;
+  transition: all 0.7s linear;
+  color: var(--white);
+}
+
+.counter-numbers {
+  font-size: 4.8rem;
+}
+
+.section-work-data p {
+  color: var(--white);
+  text-transform: capitalize;
+}
+
+
+/* ===========================================
+Resume Section
+======================================= */
+
+.section-resume {
+  background: var(--bg);
+}
+
+.resume-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.resume-img img {
+  width: 80%;
+  box-shadow: -2rem 2rem 0 0 var(--helper);
+  /* box-shadow: var(--shadpw) */
+}
+
+.resume-para {
+  font-size: 2.4rem;
+  letter-spacing: 0;
+  text-transform: capitalize;
+  color: var(--heading);
+}
+
+.resume-data-subsection {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 4.8rem;
+  margin-top: 4.4rem;
+  padding-bottom: 2.4rem;
+  border-bottom: 1px solid var(--para-tint);
+}
+
+.resume-data-left .grid {
+  gap: 1.5rem;
+}
+
+.resume-data-left .grid p,
+.resume-data-right p {
+  font-size: 1.4rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.resume-data-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.resume-data-right .resume-data-button {
+  font-size: 1.3rem;
+  text-transform: uppercase;
+  color: var(--helper);
+  padding: 0.3rem 0;
+  min-width: 50%;
+  background: #f3f4ff;
+  border-radius: 10rem;
+  justify-content: center;
+  margin-bottom: 0.5rem;
+}
+
+.resume-data-bottom-subsection {
+  margin-top: 4.8rem;
+}
+
+.resume-data-bottom-subsection .margin-small {
+  margin-top: 1.8rem;
+}
+
+.resume-data-bottom-subsection .resume-data-button {
+  width: 80%;
+}
+
+
+
+
+
+/* ===========================================
+freelancer  Section
+======================================= */
+
+.section-freelancer {
+  background-image: url("../images/available.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  text-align: center;
+  position: relative;
+  background-attachment: fixed;
+  transition: all 0.7s linear;
+}
+
+.section-freelancer .overlay {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: var(--overlay);
+  opacity: 0.7;
+}
+
+.section-freelancer .container {
+  position: relative;
+}
+
+.section-freelancer h2 {
+  font-size: 5.4rem;
+}
+
+.section-freelancer h2 span {
+  color: #a0f669;
+}
+
+.section-freelancer h2,
+.section-freelancer p {
+  color: var(--white);
+  margin-bottom: 1.8rem;
+}
+
+
+/* ===========================================
+contact Section
+======================================= */
+
+.section-contact-main {
+  max-width: 70rem;
+  margin: 0 auto;
+  margin-top: 9rem;
+  transition: all 0.3s linear;
+}
+
+.section-contact-main form {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+.section-contact-main .grid {
+  gap: 2.4rem;
+}
+
+.section-contact-main input,
+textarea {
+  padding: 1.5rem 2rem;
+  border: 0.1rem solid #c9c9c9;
+  border-radius: 5px;
+  width: 100%;
+  font-size: 1.6rem;
+  font-family: "work sans";
+}
+
+.section-contact-main textarea {
+  height: 15rem;
+}
+
+/* ::placeholder {
+    font-size: 1.6rem;
+    font-family: "work sans";
+  } */
+
+.section-contact-main input[type="submit"] {
+  max-width: 30%;
+  border: none;
+}
+
+
+
+
+
+
+/* ===========================================
+Footer Section
+======================================= */
+
+.section-footer {
+  background: var(--heading);
+}
+
+.section-footer h3 {
+  color: var(--third);
+  margin-bottom: 4rem;
+}
+
+.f-about p {
+  color: #adadad;
+}
+
+.f-links ul,
+.f-services ul,
+.f-address address {
+  display: flex;
+  flex-direction: column;
+  gap: 1.8rem;
+  justify-content: center;
+  list-style: none;
+}
+
+.f-links li,
+.f-links a,
+.f-services li,
+.f-services a {
+  font-size: 1.8rem;
+  color: #adadad;
+  text-transform: capitalize;
+}
+
+.f-links span,
+.f-services span,
+.f-address span {
+  margin-right: 1rem;
+}
+
+.f-address p {
+  font-style: normal;
+  color: #adadad;
+}
+
+.f-social-icons {
+  margin: 5rem 0;
+  text-align: center;
+  color: #adadad;
+}
+
+.f-social-icons .icons {
+  width: 4rem;
+  height: 4rem;
+  background-color: rgb(144 172 209 / 20%);
+  display: inline-block;
+  padding: 1.4rem 1.8rem;
+  position: relative;
+  color: var(--heading);
+  animation: water-wave 3s linear infinite;
+  color: var(--third);
+}
+
+.f-credits p {
+  text-align: center;
+  color: #adadad;
+}
+
+footer a:hover {
+  color: var(--third);
+}
+
+/* -------------------
+ */
+/* 
+ .body{
+   margin-left: 20px;
+   margin-right: 20px;
+ } */
+
+/* sticky Navbar */
+.sticky .header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 8rem;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 1);
+  box-shadow: var(--shadow);
+  z-index: 9999;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+
