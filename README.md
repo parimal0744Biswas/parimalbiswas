@@ -9,7 +9,7 @@
 
 - 🌱 I’m currently learning **Java, Spring Boot, JavaScript, React**
 
-- 👨‍💻 All of my projects are available at [www.parimalbiswas.com (www.parimalbiswas.com)](www.parimalbiswas.com (www.parimalbiswas.com))
+- 👨‍💻 All of my projects are available at [www.parimalbiswas.com](www.parimalbiswas.com (www.parimalbiswas.com))
 
 - 💬 Ask me about **Java,JavaScript**
 
