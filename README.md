@@ -12,7 +12,7 @@
 
 - 🌱 I’m currently learning **Java, Spring Boot, JavaScript, React**
 
-- 👨‍💻 Visit my Portfolio [www.parimalbiswas.com](www.parimalbiswas.com)
+- 👨‍💻 Visit my Portfolio **[www.parimalbiswas.com](www.parimalbiswas.com)**
 
 - 💬 Ask me about **Java,JavaScript**
 
