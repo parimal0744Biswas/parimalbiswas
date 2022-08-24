@@ -1,6 +1,7 @@
 <center>
-
 <h1 align="center">Hi 👋, I'm PARIMAL BISWAS</h1>
+<img src='https://miro.medium.com/max/1400/1*R-dBwKQAJ6P1MmooEdu2JQ.png' alt='banner' />
+
 <h3 align="center">I'm an aspiring Java Backend Developer and completed 1000+ hours of coding. Always looking forward to learning something new. I enjoy creating things that are live on the internet. I am highly passionate about Backend technologies and love to create APIs.</h3>
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=parimalbiswas&label=Profile%20views&color=0e75b6&style=flat" alt="parimalbiswas" /> </p>
@@ -19,6 +20,7 @@
 
 - ⚡ Fun fact **Anyone who Stops Learning is old, whether at Twenty or Eighty.**
 
+<h3><i>Let's Connect !!<img src="https://raw.githubusercontent.com/ShahriarShafin/ShahriarShafin/main/Assets/handshake.gif" width="100" /></i></h3>
 <h3 align="left">Connect with me:</h3>
 <p align="left">
 <a href="https://linkedin.com/in/parimalbiswas" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="parimalbiswas" height="30" width="40" /></a>
