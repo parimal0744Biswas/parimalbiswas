@@ -1,6 +1,6 @@
 <center>
 <h1 align="center">Hi 👋, I'm PARIMAL BISWAS</h1>
-<img src='https://miro.medium.com/max/1400/1*R-dBwKQAJ6P1MmooEdu2JQ.png' alt='banner' />
+<img src='[https://miro.medium.com/max/1400/1*R-dBwKQAJ6P1MmooEdu2JQ.png](https://miro.medium.com/max/1400/1*CouRxRFigy2cvgCM3-o2Jg.png)' alt='banner' />
 
 <h3 align="center">I'm an aspiring Java Backend Developer and completed 1000+ hours of coding. Always looking forward to learning something new. I enjoy creating things that are live on the internet. I am highly passionate about Backend technologies and love to create APIs.</h3>
 
